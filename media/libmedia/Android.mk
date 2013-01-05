@@ -1,4 +1,5 @@
 LOCAL_PATH:= $(call my-dir)
+LOCAL_CFLAGS:= -fno-strict-aliasing
 
 include $(CLEAR_VARS)
 
